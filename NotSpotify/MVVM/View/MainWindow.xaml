@@ -39,7 +39,8 @@
 
         <ListView Background="#252525"
                   ScrollViewer.CanContentScroll="False"
-                  ItemsSource="{Binding Songs}">
+                  ItemsSource="{Binding Songs}"
+                  Style="{StaticResource ListStyle}" >
 
         </ListView>
     </DockPanel>
